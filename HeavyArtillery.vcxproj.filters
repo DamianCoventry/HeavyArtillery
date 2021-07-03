@@ -1,0 +1,1144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Core\SoundManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\TextureManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DecalManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ExplosionManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\LevelManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MeshManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ModelManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\MusicManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ObjectManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ParticleManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PlayerManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PoolTemplate.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ShotManager.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogDraw.h">
+      <Filter>Core\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogScheme.h">
+      <Filter>Core\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\Font.h">
+      <Filter>Core\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\Dialog.h">
+      <Filter>Core\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcLabel.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcList.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcLWO.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcProgress.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcScrollBar.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcScrollBox.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcScrollButton.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcStatic.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProc.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcButton.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcCheck.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcDefault.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcEdit.h">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Shoot\Shoot.h">
+      <Filter>Core\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\View\View.h">
+      <Filter>Core\View</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Backpack\Backpack.h">
+      <Filter>CoreObjects\Backpack</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Camera\Camera.h">
+      <Filter>CoreObjects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Camera\CameraMouseLook.h">
+      <Filter>CoreObjects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Camera\CameraTypes.h">
+      <Filter>CoreObjects\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Decal\DecalStructs.h">
+      <Filter>CoreObjects\Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Explosion\Explosion.h">
+      <Filter>CoreObjects\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Explosion\ExplosionTypes.h">
+      <Filter>CoreObjects\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Item\ItemTypes.h">
+      <Filter>CoreObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\LightSource\LightSource.h">
+      <Filter>CoreObjects\LightSource</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Mesh\MeshCreate.h">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Mesh\MeshDraw.h">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Mesh\MeshTex.h">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Mesh\MeshTypes.h">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Weapon\WeaponTypes.h">
+      <Filter>CoreObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Particle\ParticleTypes.h">
+      <Filter>CoreObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Object\ObjectTypes.h">
+      <Filter>CoreObjects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Object\Object.h">
+      <Filter>CoreObjects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreObjects\Particle\DisplayList.h">
+      <Filter>CoreObjects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\LWObject.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Targa.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\TileSet.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Wave.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Bitmap.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Log.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\KeyList.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\LoadingScreen.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Loop.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\PlayerCreate.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Game.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameConfig.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameDecals.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameDialogs.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameExplosions.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameItems.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameModels.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameMusic.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameParticles.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameSounds.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameTypes.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\GameWeapons.h">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotBuy.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotCompetetive.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotCruel.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotDefense.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotGreedy.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotInept.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotMove.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotShoot.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotThink.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotUtility.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Bot\BotVindictive.h">
+      <Filter>GamePlay\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogStats.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogWeapon.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Items\Guidance.h">
+      <Filter>GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Items\Parachutes.h">
+      <Filter>GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Items\Shields.h">
+      <Filter>GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Items\Batteries.h">
+      <Filter>GamePlay\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\LeapFrog.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\MIRV.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\Napalm.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\Projectile.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\AirStrike.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\DeathsHead.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Weapons\FunkyBomb.h">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\State.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateBeginGame.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateBeginLevel.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateBeginTurn.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateBotThink.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateEndLevel.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateEndTurn.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateFindTank.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateFlyBy.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateGetShotInfo.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateMouseLook.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateMoveTank.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateRunTurn.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateTypes.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\States\StateWaitForShot.h">
+      <Filter>GamePlay\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Player\PlayerHistory.h">
+      <Filter>GamePlay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Player\PlayerTank.h">
+      <Filter>GamePlay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleAirStrikeBeacon.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleCentralExplosion.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleDamageSmoke.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleDebrisGround.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleDebrisTank.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleDecalSmoke.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleExplFireball.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleExplSparks.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleFireball.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleGeneralSpark.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleGroundSmoke.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleMissileSmoke.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleRailgun.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleRailgunInner.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleShieldHeavyDebris.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleShieldHeavySpark.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleShieldLightDebris.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleShieldLightSpark.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleShieldMediumDebris.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleShieldMediumSpark.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleSnowflake.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Particles\ParticleTankSpark.h">
+      <Filter>GamePlay\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Objects\ObjectSkySphere.h">
+      <Filter>GamePlay\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Graphics.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Hardware.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\HardwareTypes.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Input.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\OpenGL.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Sound.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware\Timer.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Error.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Noise.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Vector.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Application.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\resource.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\WindowProc.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogTankMove.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogAppOptions.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogBeginTurn.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogBot.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogBotToolbar.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogCamera.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogFindTank.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogFlyBy.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogGameOptions.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogGameToolbar.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogHelp.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogKeys.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogLevelStart.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogMain.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogMyTank.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogNewGame.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPlayer.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPlayOrder.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupGame.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupHelp.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupTank.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupTools.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupView.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogProperties.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogShop.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogShotInfo.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay\Dialogs\DialogStartupProgress.h">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\SoundManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\TextureManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DecalManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ExplosionManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\LevelManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MeshManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ModelManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\MusicManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ObjectManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ParticleManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\PlayerManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\PoolTemplate.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ShotManager.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogScheme.c">
+      <Filter>Core\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\Font.c">
+      <Filter>Core\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\Dialog.c">
+      <Filter>Core\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogDraw.c">
+      <Filter>Core\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcList.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcLWO.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcProgress.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcScrollBar.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcScrollBox.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcScrollButton.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcStatic.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcButton.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcCheck.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcDefault.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcEdit.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcLabel.c">
+      <Filter>Core\Dialog\DialogProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Shoot\Shoot.c">
+      <Filter>Core\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\View\View.c">
+      <Filter>Core\View</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Backpack\Backpack.c">
+      <Filter>CoreObjects\Backpack</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Camera\Camera.c">
+      <Filter>CoreObjects\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Camera\CameraMouseLook.c">
+      <Filter>CoreObjects\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Explosion\Explosion.c">
+      <Filter>CoreObjects\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\LightSource\LightSource.c">
+      <Filter>CoreObjects\LightSource</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Mesh\MeshCreate.c">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Mesh\MeshDraw.c">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Mesh\MeshTex.c">
+      <Filter>CoreObjects\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Object\Object.c">
+      <Filter>CoreObjects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreObjects\Particle\DisplayList.c">
+      <Filter>CoreObjects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\LWObject.c">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Targa.c">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\TileSet.c">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Wave.c">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Bitmap.c">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Log.c">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\LoadingScreen.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Loop.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\PlayerCreate.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Game.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameConfig.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameDecals.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameDialogs.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameExplosions.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameItems.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameModels.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameMusic.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameParticles.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameSounds.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\GameWeapons.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\KeyList.c">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotBuy.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotCompetetive.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotCruel.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotDefense.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotGreedy.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotInept.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotMove.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotShoot.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotThink.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotUtility.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Bot\BotVindictive.c">
+      <Filter>GamePlay\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogStats.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogWeapon.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Items\Parachutes.c">
+      <Filter>GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Items\Shields.c">
+      <Filter>GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Items\Batteries.c">
+      <Filter>GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Items\Guidance.c">
+      <Filter>GamePlay\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\LeapFrog.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\MIRV.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\Napalm.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\Projectile.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\AirStrike.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\DeathsHead.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Weapons\FunkyBomb.c">
+      <Filter>GamePlay\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\State.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateBeginGame.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateBeginLevel.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateBeginTurn.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateBotThink.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateEndLevel.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateEndTurn.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateFindTank.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateFlyBy.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateGetShotInfo.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateMouseLook.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateMoveTank.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateRunTurn.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\States\StateWaitForShot.c">
+      <Filter>GamePlay\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Player\PlayerHistory.c">
+      <Filter>GamePlay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Player\PlayerTank.c">
+      <Filter>GamePlay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleAirStrikeBeacon.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleCentralExplosion.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleDamageSmoke.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleDebrisGround.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleDebrisTank.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleDecalSmoke.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleExplFireball.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleExplSparks.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleFireball.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleGeneralSpark.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleGroundSmoke.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleMissileSmoke.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleRailgun.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleRailgunInner.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleShieldHeavyDebris.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleShieldHeavySpark.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleShieldLightDebris.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleShieldLightSpark.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleShieldMediumDebris.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleShieldMediumSpark.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleSnowflake.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Particles\ParticleTankSpark.c">
+      <Filter>GamePlay\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Objects\ObjectSkySphere.c">
+      <Filter>GamePlay\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Graphics.c">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Hardware.c">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Input.c">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\OpenGL.c">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Sound.c">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware\Timer.c">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Error.c">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Noise.c">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.c">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Vector.c">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Application.c">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\WindowProc.c">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\WinMain.c">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogAppOptions.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogBeginTurn.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogBot.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogBotToolbar.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogCamera.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogFindTank.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogFlyBy.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogGameOptions.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogGameToolbar.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogHelp.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogKeys.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogLevelStart.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogMain.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogMyTank.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogNewGame.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPlayer.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPlayOrder.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupGame.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupHelp.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupTank.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupTools.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupView.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogProperties.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogShop.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogShotInfo.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogStartupProgress.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay\Dialogs\DialogTankMove.c">
+      <Filter>GamePlay\Dialogs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5032e163-b39d-44f0-93ce-3b6fff8e31c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dialog">
+      <UniqueIdentifier>{9e4300f4-2c76-434f-a731-14d610122403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Shoot">
+      <UniqueIdentifier>{7011dfc1-bc24-41d1-85ed-158d0aabc617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\View">
+      <UniqueIdentifier>{4d024285-a69c-4001-b36a-e1246f76c9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dialog\DialogProc">
+      <UniqueIdentifier>{087c6887-6efb-4348-a09d-7fac803b6761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects">
+      <UniqueIdentifier>{7635fc44-c2e2-4d36-82d0-c930b0ffb55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Backpack">
+      <UniqueIdentifier>{b1c16860-9560-4a6c-850d-ebc017e9f8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Camera">
+      <UniqueIdentifier>{aa9cbd84-e26c-42c7-bb56-e8e062eed038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Decal">
+      <UniqueIdentifier>{825c5e5f-4d8a-4590-a04c-2acb734acfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Explosion">
+      <UniqueIdentifier>{adc9c874-2fa4-47e3-a450-dec37100c5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Item">
+      <UniqueIdentifier>{2f583610-bf8b-4405-8162-75f53db9f403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\LightSource">
+      <UniqueIdentifier>{cfadb4f7-93a0-4255-8036-52c16e24b149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Mesh">
+      <UniqueIdentifier>{8b22aa37-155a-421a-8548-04828d7a0e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Object">
+      <UniqueIdentifier>{409d3775-f2f5-486a-afcf-7f61e2bf7723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Particle">
+      <UniqueIdentifier>{7f456294-96c5-4aa2-ade1-f80d17c8efc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreObjects\Weapon">
+      <UniqueIdentifier>{b90c2008-f610-4e37-aa14-8047f6ed6425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{2a666a77-774b-424e-a5f2-802d9f97c9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay">
+      <UniqueIdentifier>{c3e8e499-e288-406b-b68e-35061b6febd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Bot">
+      <UniqueIdentifier>{ec748f5f-c3f3-482d-97a0-48845b900f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Dialogs">
+      <UniqueIdentifier>{a95ae218-8874-41c4-82f9-49b4e2e69800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Items">
+      <UniqueIdentifier>{439cfb68-a29e-412b-ac6b-040ad4a99dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Objects">
+      <UniqueIdentifier>{952d63a8-9e8b-4182-80cd-d3abf1979c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Particles">
+      <UniqueIdentifier>{83de11f2-e1a0-4253-8cb4-d0ff4a510fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Player">
+      <UniqueIdentifier>{77c4a76e-8684-45c9-be90-0ca3a12eb2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\States">
+      <UniqueIdentifier>{c5edbf43-5178-413e-ab29-9e371af7ac03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Weapons">
+      <UniqueIdentifier>{51f5a7b2-5481-464d-8ad1-bc542dcaec0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hardware">
+      <UniqueIdentifier>{f6e0ba0e-56ee-446f-8480-f07fd8ed0b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{86dacbe6-866c-4bc0-9875-67775a9a1a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{a24d9982-0494-4597-8592-cd34ed5cbea5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Windows\Script1.rc">
+      <Filter>Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Windows\GDISplash.bmp">
+      <Filter>Windows</Filter>
+    </Image>
+    <Image Include="Windows\HeavyArtillery.ico">
+      <Filter>Windows</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{87736337-2F7F-45AA-9E41-E8974076777B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HeavyArtillery</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)..\glut-3.7\include;$(SolutionDir)\Core;$(SolutionDir)\CoreObjects;$(SolutionDir)\FileSystem;$(SolutionDir)\GamePlay;$(SolutionDir)\Hardware;$(SolutionDir)\Utility;$(SolutionDir)\Windows;$(SolutionDir)\Core\Dialog;$(SolutionDir)\Core\Shoot;$(SolutionDir)\Core\View;$(SolutionDir)\Core\Dialog\DialogProc;$(SolutionDir)\CoreObjects\Backpack;$(SolutionDir)\CoreObjects\Camera;$(SolutionDir)\CoreObjects\Decal;$(SolutionDir)\CoreObjects\Explosion;$(SolutionDir)\CoreObjects\Item;$(SolutionDir)\CoreObjects\LightSource;$(SolutionDir)\CoreObjects\Mesh;$(SolutionDir)\CoreObjects\Object;$(SolutionDir)\CoreObjects\Particle;$(SolutionDir)\CoreObjects\Weapon;$(SolutionDir)\GamePlay\Bot;$(SolutionDir)\GamePlay\Dialogs;$(SolutionDir)\GamePlay\Items;$(SolutionDir)\GamePlay\Objects;$(SolutionDir)\GamePlay\Particles;$(SolutionDir)\GamePlay\Player;$(SolutionDir)\GamePlay\States;$(SolutionDir)\GamePlay\Weapons;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\glut-3.7\$(Platform)\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\glut-3.7\include;$(SolutionDir)\Core;$(SolutionDir)\CoreObjects;$(SolutionDir)\FileSystem;$(SolutionDir)\GamePlay;$(SolutionDir)\Hardware;$(SolutionDir)\Utility;$(SolutionDir)\Windows;$(SolutionDir)\Core\Dialog;$(SolutionDir)\Core\Shoot;$(SolutionDir)\Core\View;$(SolutionDir)\Core\Dialog\DialogProc;$(SolutionDir)\CoreObjects\Backpack;$(SolutionDir)\CoreObjects\Camera;$(SolutionDir)\CoreObjects\Decal;$(SolutionDir)\CoreObjects\Explosion;$(SolutionDir)\CoreObjects\Item;$(SolutionDir)\CoreObjects\LightSource;$(SolutionDir)\CoreObjects\Mesh;$(SolutionDir)\CoreObjects\Object;$(SolutionDir)\CoreObjects\Particle;$(SolutionDir)\CoreObjects\Weapon;$(SolutionDir)\GamePlay\Bot;$(SolutionDir)\GamePlay\Dialogs;$(SolutionDir)\GamePlay\Items;$(SolutionDir)\GamePlay\Objects;$(SolutionDir)\GamePlay\Particles;$(SolutionDir)\GamePlay\Player;$(SolutionDir)\GamePlay\States;$(SolutionDir)\GamePlay\Weapons;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\glut-3.7\$(Platform)\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)..\glut-3.7\include;$(SolutionDir)\Core;$(SolutionDir)\CoreObjects;$(SolutionDir)\FileSystem;$(SolutionDir)\GamePlay;$(SolutionDir)\Hardware;$(SolutionDir)\Utility;$(SolutionDir)\Windows;$(SolutionDir)\Core\Dialog;$(SolutionDir)\Core\Shoot;$(SolutionDir)\Core\View;$(SolutionDir)\Core\Dialog\DialogProc;$(SolutionDir)\CoreObjects\Backpack;$(SolutionDir)\CoreObjects\Camera;$(SolutionDir)\CoreObjects\Decal;$(SolutionDir)\CoreObjects\Explosion;$(SolutionDir)\CoreObjects\Item;$(SolutionDir)\CoreObjects\LightSource;$(SolutionDir)\CoreObjects\Mesh;$(SolutionDir)\CoreObjects\Object;$(SolutionDir)\CoreObjects\Particle;$(SolutionDir)\CoreObjects\Weapon;$(SolutionDir)\GamePlay\Bot;$(SolutionDir)\GamePlay\Dialogs;$(SolutionDir)\GamePlay\Items;$(SolutionDir)\GamePlay\Objects;$(SolutionDir)\GamePlay\Particles;$(SolutionDir)\GamePlay\Player;$(SolutionDir)\GamePlay\States;$(SolutionDir)\GamePlay\Weapons;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\glut-3.7\$(Platform)\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)..\glut-3.7\include;$(SolutionDir)\Core;$(SolutionDir)\CoreObjects;$(SolutionDir)\FileSystem;$(SolutionDir)\GamePlay;$(SolutionDir)\Hardware;$(SolutionDir)\Utility;$(SolutionDir)\Windows;$(SolutionDir)\Core\Dialog;$(SolutionDir)\Core\Shoot;$(SolutionDir)\Core\View;$(SolutionDir)\Core\Dialog\DialogProc;$(SolutionDir)\CoreObjects\Backpack;$(SolutionDir)\CoreObjects\Camera;$(SolutionDir)\CoreObjects\Decal;$(SolutionDir)\CoreObjects\Explosion;$(SolutionDir)\CoreObjects\Item;$(SolutionDir)\CoreObjects\LightSource;$(SolutionDir)\CoreObjects\Mesh;$(SolutionDir)\CoreObjects\Object;$(SolutionDir)\CoreObjects\Particle;$(SolutionDir)\CoreObjects\Weapon;$(SolutionDir)\GamePlay\Bot;$(SolutionDir)\GamePlay\Dialogs;$(SolutionDir)\GamePlay\Items;$(SolutionDir)\GamePlay\Objects;$(SolutionDir)\GamePlay\Particles;$(SolutionDir)\GamePlay\Player;$(SolutionDir)\GamePlay\States;$(SolutionDir)\GamePlay\Weapons;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\glut-3.7\$(Platform)\$(Configuration);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\glut-3.7\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glut32.lib;opengl32.lib;dinput8.lib;dsound.lib;dxguid.lib;Strmbase.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\glut-3.7\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glut32.lib;opengl32.lib;dinput8.lib;dsound.lib;dxguid.lib;Strmbase.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\glut-3.7\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glut32.lib;opengl32.lib;dinput8.lib;dsound.lib;dxguid.lib;Strmbase.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\glut-3.7\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glut32.lib;opengl32.lib;dinput8.lib;dsound.lib;dxguid.lib;Strmbase.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreObjects\Backpack\Backpack.h" />
+    <ClInclude Include="CoreObjects\Camera\Camera.h" />
+    <ClInclude Include="CoreObjects\Camera\CameraMouseLook.h" />
+    <ClInclude Include="CoreObjects\Camera\CameraTypes.h" />
+    <ClInclude Include="CoreObjects\Decal\DecalStructs.h" />
+    <ClInclude Include="CoreObjects\Explosion\Explosion.h" />
+    <ClInclude Include="CoreObjects\Explosion\ExplosionTypes.h" />
+    <ClInclude Include="CoreObjects\Item\ItemTypes.h" />
+    <ClInclude Include="CoreObjects\LightSource\LightSource.h" />
+    <ClInclude Include="CoreObjects\Mesh\MeshCreate.h" />
+    <ClInclude Include="CoreObjects\Mesh\MeshDraw.h" />
+    <ClInclude Include="CoreObjects\Mesh\MeshTex.h" />
+    <ClInclude Include="CoreObjects\Mesh\MeshTypes.h" />
+    <ClInclude Include="CoreObjects\Object\Object.h" />
+    <ClInclude Include="CoreObjects\Object\ObjectTypes.h" />
+    <ClInclude Include="CoreObjects\Particle\DisplayList.h" />
+    <ClInclude Include="CoreObjects\Particle\ParticleTypes.h" />
+    <ClInclude Include="CoreObjects\Weapon\WeaponTypes.h" />
+    <ClInclude Include="Core\DecalManager.h" />
+    <ClInclude Include="Core\Dialog\Dialog.h" />
+    <ClInclude Include="Core\Dialog\DialogDraw.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProc.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcButton.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcCheck.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcDefault.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcEdit.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcLabel.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcList.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcLWO.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcProgress.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcScrollBar.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcScrollBox.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcScrollButton.h" />
+    <ClInclude Include="Core\Dialog\DialogProc\DialogProcStatic.h" />
+    <ClInclude Include="Core\Dialog\DialogScheme.h" />
+    <ClInclude Include="Core\Dialog\Font.h" />
+    <ClInclude Include="Core\ExplosionManager.h" />
+    <ClInclude Include="Core\LevelManager.h" />
+    <ClInclude Include="Core\MeshManager.h" />
+    <ClInclude Include="Core\ModelManager.h" />
+    <ClInclude Include="Core\MusicManager.h" />
+    <ClInclude Include="Core\ObjectManager.h" />
+    <ClInclude Include="Core\ParticleManager.h" />
+    <ClInclude Include="Core\PlayerManager.h" />
+    <ClInclude Include="Core\PoolTemplate.h" />
+    <ClInclude Include="Core\Shoot\Shoot.h" />
+    <ClInclude Include="Core\ShotManager.h" />
+    <ClInclude Include="Core\SoundManager.h" />
+    <ClInclude Include="Core\TextureManager.h" />
+    <ClInclude Include="Core\View\View.h" />
+    <ClInclude Include="FileSystem\Bitmap.h" />
+    <ClInclude Include="FileSystem\Log.h" />
+    <ClInclude Include="FileSystem\LWObject.h" />
+    <ClInclude Include="FileSystem\Targa.h" />
+    <ClInclude Include="FileSystem\TileSet.h" />
+    <ClInclude Include="FileSystem\Wave.h" />
+    <ClInclude Include="GamePlay\Bot\BotBuy.h" />
+    <ClInclude Include="GamePlay\Bot\BotCompetetive.h" />
+    <ClInclude Include="GamePlay\Bot\BotCruel.h" />
+    <ClInclude Include="GamePlay\Bot\BotDefense.h" />
+    <ClInclude Include="GamePlay\Bot\BotGreedy.h" />
+    <ClInclude Include="GamePlay\Bot\BotInept.h" />
+    <ClInclude Include="GamePlay\Bot\BotMove.h" />
+    <ClInclude Include="GamePlay\Bot\BotShoot.h" />
+    <ClInclude Include="GamePlay\Bot\BotThink.h" />
+    <ClInclude Include="GamePlay\Bot\BotUtility.h" />
+    <ClInclude Include="GamePlay\Bot\BotVindictive.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogAppOptions.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogBeginTurn.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogBot.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogBotToolbar.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogCamera.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogFindTank.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogFlyBy.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogGameOptions.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogGameToolbar.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogHelp.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogKeys.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogLevelStart.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogMain.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogMyTank.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogNewGame.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPlayer.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPlayOrder.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupGame.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupHelp.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupTank.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupTools.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogPopupView.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogProperties.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogShop.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogShotInfo.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogStartupProgress.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogStats.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogTankMove.h" />
+    <ClInclude Include="GamePlay\Dialogs\DialogWeapon.h" />
+    <ClInclude Include="GamePlay\Game.h" />
+    <ClInclude Include="GamePlay\GameConfig.h" />
+    <ClInclude Include="GamePlay\GameDecals.h" />
+    <ClInclude Include="GamePlay\GameDialogs.h" />
+    <ClInclude Include="GamePlay\GameExplosions.h" />
+    <ClInclude Include="GamePlay\GameItems.h" />
+    <ClInclude Include="GamePlay\GameModels.h" />
+    <ClInclude Include="GamePlay\GameMusic.h" />
+    <ClInclude Include="GamePlay\GameParticles.h" />
+    <ClInclude Include="GamePlay\GameSounds.h" />
+    <ClInclude Include="GamePlay\GameTypes.h" />
+    <ClInclude Include="GamePlay\GameWeapons.h" />
+    <ClInclude Include="GamePlay\Items\Batteries.h" />
+    <ClInclude Include="GamePlay\Items\Guidance.h" />
+    <ClInclude Include="GamePlay\Items\Parachutes.h" />
+    <ClInclude Include="GamePlay\Items\Shields.h" />
+    <ClInclude Include="GamePlay\KeyList.h" />
+    <ClInclude Include="GamePlay\LoadingScreen.h" />
+    <ClInclude Include="GamePlay\Loop.h" />
+    <ClInclude Include="GamePlay\Objects\ObjectSkySphere.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleAirStrikeBeacon.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleCentralExplosion.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleDamageSmoke.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleDebrisGround.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleDebrisTank.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleDecalSmoke.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleExplFireball.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleExplSparks.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleFireball.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleGeneralSpark.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleGroundSmoke.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleMissileSmoke.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleRailgun.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleRailgunInner.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleShieldHeavyDebris.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleShieldHeavySpark.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleShieldLightDebris.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleShieldLightSpark.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleShieldMediumDebris.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleShieldMediumSpark.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleSnowflake.h" />
+    <ClInclude Include="GamePlay\Particles\ParticleTankSpark.h" />
+    <ClInclude Include="GamePlay\PlayerCreate.h" />
+    <ClInclude Include="GamePlay\Player\PlayerHistory.h" />
+    <ClInclude Include="GamePlay\Player\PlayerTank.h" />
+    <ClInclude Include="GamePlay\States\State.h" />
+    <ClInclude Include="GamePlay\States\StateBeginGame.h" />
+    <ClInclude Include="GamePlay\States\StateBeginLevel.h" />
+    <ClInclude Include="GamePlay\States\StateBeginTurn.h" />
+    <ClInclude Include="GamePlay\States\StateBotThink.h" />
+    <ClInclude Include="GamePlay\States\StateEndLevel.h" />
+    <ClInclude Include="GamePlay\States\StateEndTurn.h" />
+    <ClInclude Include="GamePlay\States\StateFindTank.h" />
+    <ClInclude Include="GamePlay\States\StateFlyBy.h" />
+    <ClInclude Include="GamePlay\States\StateGetShotInfo.h" />
+    <ClInclude Include="GamePlay\States\StateMouseLook.h" />
+    <ClInclude Include="GamePlay\States\StateMoveTank.h" />
+    <ClInclude Include="GamePlay\States\StateRunTurn.h" />
+    <ClInclude Include="GamePlay\States\StateTypes.h" />
+    <ClInclude Include="GamePlay\States\StateWaitForShot.h" />
+    <ClInclude Include="GamePlay\Weapons\AirStrike.h" />
+    <ClInclude Include="GamePlay\Weapons\DeathsHead.h" />
+    <ClInclude Include="GamePlay\Weapons\FunkyBomb.h" />
+    <ClInclude Include="GamePlay\Weapons\LeapFrog.h" />
+    <ClInclude Include="GamePlay\Weapons\MIRV.h" />
+    <ClInclude Include="GamePlay\Weapons\Napalm.h" />
+    <ClInclude Include="GamePlay\Weapons\Projectile.h" />
+    <ClInclude Include="Hardware\Graphics.h" />
+    <ClInclude Include="Hardware\Hardware.h" />
+    <ClInclude Include="Hardware\HardwareTypes.h" />
+    <ClInclude Include="Hardware\Input.h" />
+    <ClInclude Include="Hardware\OpenGL.h" />
+    <ClInclude Include="Hardware\Sound.h" />
+    <ClInclude Include="Hardware\Timer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Utility\Error.h" />
+    <ClInclude Include="Utility\Noise.h" />
+    <ClInclude Include="Utility\Utility.h" />
+    <ClInclude Include="Utility\Vector.h" />
+    <ClInclude Include="Windows\Application.h" />
+    <ClInclude Include="Windows\resource.h" />
+    <ClInclude Include="Windows\WindowProc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreObjects\Backpack\Backpack.c" />
+    <ClCompile Include="CoreObjects\Camera\Camera.c" />
+    <ClCompile Include="CoreObjects\Camera\CameraMouseLook.c" />
+    <ClCompile Include="CoreObjects\Explosion\Explosion.c" />
+    <ClCompile Include="CoreObjects\LightSource\LightSource.c" />
+    <ClCompile Include="CoreObjects\Mesh\MeshCreate.c" />
+    <ClCompile Include="CoreObjects\Mesh\MeshDraw.c" />
+    <ClCompile Include="CoreObjects\Mesh\MeshTex.c" />
+    <ClCompile Include="CoreObjects\Object\Object.c" />
+    <ClCompile Include="CoreObjects\Particle\DisplayList.c" />
+    <ClCompile Include="Core\DecalManager.c" />
+    <ClCompile Include="Core\Dialog\Dialog.c" />
+    <ClCompile Include="Core\Dialog\DialogDraw.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcButton.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcCheck.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcDefault.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcEdit.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcLabel.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcList.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcLWO.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcProgress.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcScrollBar.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcScrollBox.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcScrollButton.c" />
+    <ClCompile Include="Core\Dialog\DialogProc\DialogProcStatic.c" />
+    <ClCompile Include="Core\Dialog\DialogScheme.c" />
+    <ClCompile Include="Core\Dialog\Font.c" />
+    <ClCompile Include="Core\ExplosionManager.c" />
+    <ClCompile Include="Core\LevelManager.c" />
+    <ClCompile Include="Core\MeshManager.c" />
+    <ClCompile Include="Core\ModelManager.c" />
+    <ClCompile Include="Core\MusicManager.c" />
+    <ClCompile Include="Core\ObjectManager.c" />
+    <ClCompile Include="Core\ParticleManager.c" />
+    <ClCompile Include="Core\PlayerManager.c" />
+    <ClCompile Include="Core\PoolTemplate.c" />
+    <ClCompile Include="Core\Shoot\Shoot.c" />
+    <ClCompile Include="Core\ShotManager.c" />
+    <ClCompile Include="Core\SoundManager.c" />
+    <ClCompile Include="Core\TextureManager.c" />
+    <ClCompile Include="Core\View\View.c" />
+    <ClCompile Include="FileSystem\Bitmap.c" />
+    <ClCompile Include="FileSystem\Log.c" />
+    <ClCompile Include="FileSystem\LWObject.c" />
+    <ClCompile Include="FileSystem\Targa.c" />
+    <ClCompile Include="FileSystem\TileSet.c" />
+    <ClCompile Include="FileSystem\Wave.c" />
+    <ClCompile Include="GamePlay\Bot\BotBuy.c" />
+    <ClCompile Include="GamePlay\Bot\BotCompetetive.c" />
+    <ClCompile Include="GamePlay\Bot\BotCruel.c" />
+    <ClCompile Include="GamePlay\Bot\BotDefense.c" />
+    <ClCompile Include="GamePlay\Bot\BotGreedy.c" />
+    <ClCompile Include="GamePlay\Bot\BotInept.c" />
+    <ClCompile Include="GamePlay\Bot\BotMove.c" />
+    <ClCompile Include="GamePlay\Bot\BotShoot.c" />
+    <ClCompile Include="GamePlay\Bot\BotThink.c" />
+    <ClCompile Include="GamePlay\Bot\BotUtility.c" />
+    <ClCompile Include="GamePlay\Bot\BotVindictive.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogAppOptions.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogBeginTurn.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogBot.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogBotToolbar.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogCamera.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogFindTank.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogFlyBy.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogGameOptions.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogGameToolbar.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogHelp.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogKeys.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogLevelStart.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogMain.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogMyTank.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogNewGame.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPlayer.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPlayOrder.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupGame.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupHelp.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupTank.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupTools.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogPopupView.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogProperties.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogShop.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogShotInfo.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogStartupProgress.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogStats.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogTankMove.c" />
+    <ClCompile Include="GamePlay\Dialogs\DialogWeapon.c" />
+    <ClCompile Include="GamePlay\Game.c" />
+    <ClCompile Include="GamePlay\GameConfig.c" />
+    <ClCompile Include="GamePlay\GameDecals.c" />
+    <ClCompile Include="GamePlay\GameDialogs.c" />
+    <ClCompile Include="GamePlay\GameExplosions.c" />
+    <ClCompile Include="GamePlay\GameItems.c" />
+    <ClCompile Include="GamePlay\GameModels.c" />
+    <ClCompile Include="GamePlay\GameMusic.c" />
+    <ClCompile Include="GamePlay\GameParticles.c" />
+    <ClCompile Include="GamePlay\GameSounds.c" />
+    <ClCompile Include="GamePlay\GameWeapons.c" />
+    <ClCompile Include="GamePlay\Items\Batteries.c" />
+    <ClCompile Include="GamePlay\Items\Guidance.c" />
+    <ClCompile Include="GamePlay\Items\Parachutes.c" />
+    <ClCompile Include="GamePlay\Items\Shields.c" />
+    <ClCompile Include="GamePlay\KeyList.c" />
+    <ClCompile Include="GamePlay\LoadingScreen.c" />
+    <ClCompile Include="GamePlay\Loop.c" />
+    <ClCompile Include="GamePlay\Objects\ObjectSkySphere.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleAirStrikeBeacon.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleCentralExplosion.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleDamageSmoke.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleDebrisGround.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleDebrisTank.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleDecalSmoke.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleExplFireball.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleExplSparks.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleFireball.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleGeneralSpark.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleGroundSmoke.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleMissileSmoke.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleRailgun.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleRailgunInner.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleShieldHeavyDebris.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleShieldHeavySpark.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleShieldLightDebris.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleShieldLightSpark.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleShieldMediumDebris.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleShieldMediumSpark.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleSnowflake.c" />
+    <ClCompile Include="GamePlay\Particles\ParticleTankSpark.c" />
+    <ClCompile Include="GamePlay\PlayerCreate.c" />
+    <ClCompile Include="GamePlay\Player\PlayerHistory.c" />
+    <ClCompile Include="GamePlay\Player\PlayerTank.c" />
+    <ClCompile Include="GamePlay\States\State.c" />
+    <ClCompile Include="GamePlay\States\StateBeginGame.c" />
+    <ClCompile Include="GamePlay\States\StateBeginLevel.c" />
+    <ClCompile Include="GamePlay\States\StateBeginTurn.c" />
+    <ClCompile Include="GamePlay\States\StateBotThink.c" />
+    <ClCompile Include="GamePlay\States\StateEndLevel.c" />
+    <ClCompile Include="GamePlay\States\StateEndTurn.c" />
+    <ClCompile Include="GamePlay\States\StateFindTank.c" />
+    <ClCompile Include="GamePlay\States\StateFlyBy.c" />
+    <ClCompile Include="GamePlay\States\StateGetShotInfo.c" />
+    <ClCompile Include="GamePlay\States\StateMouseLook.c" />
+    <ClCompile Include="GamePlay\States\StateMoveTank.c" />
+    <ClCompile Include="GamePlay\States\StateRunTurn.c" />
+    <ClCompile Include="GamePlay\States\StateWaitForShot.c" />
+    <ClCompile Include="GamePlay\Weapons\AirStrike.c" />
+    <ClCompile Include="GamePlay\Weapons\DeathsHead.c" />
+    <ClCompile Include="GamePlay\Weapons\FunkyBomb.c" />
+    <ClCompile Include="GamePlay\Weapons\LeapFrog.c" />
+    <ClCompile Include="GamePlay\Weapons\MIRV.c" />
+    <ClCompile Include="GamePlay\Weapons\Napalm.c" />
+    <ClCompile Include="GamePlay\Weapons\Projectile.c" />
+    <ClCompile Include="Hardware\Graphics.c" />
+    <ClCompile Include="Hardware\Hardware.c" />
+    <ClCompile Include="Hardware\Input.c" />
+    <ClCompile Include="Hardware\OpenGL.c" />
+    <ClCompile Include="Hardware\Sound.c" />
+    <ClCompile Include="Hardware\Timer.c" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Utility\Error.c" />
+    <ClCompile Include="Utility\Noise.c" />
+    <ClCompile Include="Utility\Utility.c" />
+    <ClCompile Include="Utility\Vector.c" />
+    <ClCompile Include="Windows\Application.c" />
+    <ClCompile Include="Windows\WindowProc.c" />
+    <ClCompile Include="Windows\WinMain.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Windows\Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Windows\GDISplash.bmp" />
+    <Image Include="Windows\HeavyArtillery.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
